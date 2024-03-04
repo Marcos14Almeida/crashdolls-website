@@ -1,0 +1,8 @@
+/* fonts.css */
+@font-face {
+    font-family: 'Jeju Hallasan';
+    src: url('../../fonts/JejuHallasan-Regular.ttf') format('truetype');
+    /* Add more font formats if needed */
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,147 @@
+
+.next-show-section{
+    background: linear-gradient(to bottom, #F6BFF8, transparent);
+    padding-top: 64px;
+    padding-bottom: 80px;
+}
+
+
+
+/* ------------------------------------------------------- 
+                        Items                              
+ ------------------------------------------------------- */
+
+.horizontal-list-container {
+    padding-top: 64px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr)); /* Adjust the minmax value as needed */
+    gap: 64px 0px; /* Adjust the gap between items */
+}
+
+/* ------------------------------------------------------- 
+                    Container                             
+ ------------------------------------------------------- */
+
+.show-container {
+    background-color: #000000;
+    border-radius: 8px;
+    height: 147px;
+    position: relative;
+    width: 470px;
+    margin-left: 32px;
+}
+
+.show-container .text-wrapper {
+    color: #ffffff;    
+    font-family: 'Jeju Hallasan', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 7px;
+    width: 253px;
+}
+
+.show-container .image {
+    height: 187px;
+    left: 273px;
+    position: absolute;
+    top: -20px;
+    width: 173px;
+}
+
+.show-container .tickets-button {
+    background: linear-gradient(
+        180deg,
+        rgba(249.9, 0, 255, 0.56) 0%,
+        rgba(249.9, 0, 255, 0.6) 0%,
+        rgba(249.9, 0, 255, 0.18) 100%
+    );
+    border: 1px solid;
+    border-color: #f900ff;
+    border-radius: 8px;
+    height: 35px;
+    left: 13px;
+    position: absolute;
+    top: 102px;
+    width: 132px;
+}
+
+.show-container .tickets-button:hover {
+    /* Modify the button's styles when hovered */
+    background: linear-gradient(
+        180deg,
+        rgba(249.9, 0, 255, 0.9) 0%,
+        rgba(249.9, 0, 255, 0.9) 0%,
+        rgba(249.9, 0, 255, 0.36) 100%
+        );
+    border-color: #ff00ff; /* Change border color */
+    color: #fff; /* Change text color */
+}
+
+.show-container .tickets-text {
+    color: #ffffff;    
+    font-family: 'Jeju Hallasan', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 5px;
+    width: 120px;
+}
+
+.show-container .p {
+    color: #bbbbbb;    
+    font-family: 'Jeju Hallasan', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 41px;
+    width: 249px;
+}
+
+.show-container .text-wrapper-2 {
+    color: #bbbbbb;    
+    font-family: 'Jeju Hallasan', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    left: 167px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 88px;
+    width: 95px;
+}
+
+/* ------------------------------------------------------- 
+                    Check More Button                              
+ ------------------------------------------------------- */
+
+.custom-button {
+    background: none;
+    border: 2px solid var(--default-color);
+    font-family: 'Jeju Hallasan', sans-serif;
+    font-size: 24px;
+    border-radius: 16px;
+    padding: 12px 32px;
+    color: var(--default-color);
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    margin-right: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 32px;
+    margin-left: calc(100% - 180px);
+}
+
+.custom-button:hover {
+    color: white; /* Change text color to white on hover */
+    background: linear-gradient(to bottom, purple, pink); /* Change background color to pink on hover */
+}

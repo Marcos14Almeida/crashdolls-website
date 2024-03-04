@@ -1,0 +1,17 @@
+:root {
+  --default-color: #FA00FF;
+  --black-color: #000000; 
+  --white-color: #ffffff;
+
+  --davai-primary: #00D1FF;
+  --davai-secondary: #D200D7;
+
+  --davai-gradient: linear-gradient(to right, #00D1FF, #D200D7);
+
+  --small-text-12-font-size: 12px;
+  --regular-text-14-font-size: 14px;
+
+  --bold-title-16-font-size: 16px;
+  --bold-font-style: bold;
+  --bold-font-weight: 600;
+}

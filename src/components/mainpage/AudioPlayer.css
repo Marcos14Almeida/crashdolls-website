@@ -1,0 +1,51 @@
+.audio-player-bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+    background-color: #333; /* Set the background color as desired */
+    color: #fff; /* Set the text color as desired */
+    padding: 8px;
+
+    display: flex;
+    flex-direction: row;
+
+    z-index: 999; /* Adjust z-index as needed to ensure it's above other content */
+}
+
+/* ------------------------------------------------------- 
+                    Song Player                              
+ ------------------------------------------------------- */
+
+.song-title{
+    font-size: 18px;
+    width: 260px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.song-play{
+    margin-top: 8px;
+}
+
+/* ------------------------------------------------------- 
+                        Icons                              
+ ------------------------------------------------------- */
+
+.icon-buttons-container {
+    display: flex;
+    justify-content: space-between; /* Adds space between buttons */
+    padding: 16px; /* Adds padding around the container */
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-button img {
+    width: 32px; /* Adjust the width as needed */
+    height: 32px; /* Adjust the height as needed */
+}

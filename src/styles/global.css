@@ -1,0 +1,22 @@
+.pink-title {
+    font-size: 48px;
+    color: var(--default-color);
+    font-family: 'Jeju Hallasan', sans-serif;
+    text-align: left;
+    margin-left: 4%;
+}
+
+.pink-text {
+    color: var(--default-color);
+    font-family: 'Jeju Hallasan', sans-serif;
+}
+
+.title-section{
+    display: flex;
+}
+
+.titleSVG {
+    width: 50px; /* Adjust the width of the SVG icon as needed */
+    margin-left: 20px; /* Add space between the text and the SVG icon */
+    color: var(--default-color);
+}

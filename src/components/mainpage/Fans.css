@@ -1,0 +1,38 @@
+.fans-section{
+    background: black;
+}
+
+/* ------------------------------------------------------- 
+                        Items                              
+ ------------------------------------------------------- */
+
+.horizontal-list-page {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.picture-container {
+    margin-left: 64px;
+    margin-right: 32px;
+    margin-bottom: 64px;
+}
+
+.svg-container {
+    height: 77%;
+}
+
+.image-fan img {
+    padding-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-bottom: 16px;
+    width: 145px;
+    height: 170px;
+}
+
+.text-fan {
+    font-size: 22px;
+    color: var(--default-color);
+    font-family: 'Jeju Hallasan', sans-serif;
+}

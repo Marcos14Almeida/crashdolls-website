@@ -1,0 +1,42 @@
+/* ------------------------------------------------------- 
+                        Style                             
+ ------------------------------------------------------- */
+.header {
+    background-color: black; /* Set the background color to black */
+    text-align: center; /* Center-align the content */
+    padding: 8px 0; /* Add some top and bottom padding for spacing */
+}
+
+.nav {
+    display: inline-block; /* Display the navigation horizontally */
+}
+
+.nav-list {
+    list-style: none; /* Remove list bullet points */
+    padding: 0;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 10px; /* Add some horizontal spacing between nav items */
+    color: white; /* Set the text color to white */
+    font-size: 18px; /* Adjust the font size as needed */
+    text-transform: uppercase; /* Convert text to uppercase */
+    text-decoration: none; /* Remove underlines from links */
+}
+
+.nav-item:hover {
+    /* Add hover effect (e.g., change text color) if desired */
+    color: var(--default-color); /* Change to the desired hover color */
+    cursor: pointer; /* Change to a pointer cursor on hover */
+}
+
+.link-no-underline {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link-no-underline:hover {
+    color: var(--default-color); /* Change to the desired hover color */
+    cursor: pointer; /* Change to a pointer cursor on hover */
+}

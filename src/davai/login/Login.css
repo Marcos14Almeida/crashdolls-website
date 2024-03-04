@@ -1,0 +1,55 @@
+/* ------------------------------------------------------- 
+                        Background                            
+ ------------------------------------------------------- */
+.login-container {
+    background-image: url('../../assets/davai/background.png');
+    background-size: cover; /* This property scales the background image to cover the entire div */
+    background-repeat: no-repeat; /* This property prevents the background image from repeating */
+    background-position: center; /* This property centers the background image within the div */
+    width: auto; /* Set the width and height of your div */
+    height: 95vw;
+}
+
+/* ------------------------------------------------------- 
+                        Buttons                            
+ ------------------------------------------------------- */
+
+.button-login {
+    margin-top: 96vw;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 8px;
+    height: 52px;
+    width: 167px;
+    margin-left: 20%;
+    margin-right: 32px;
+    margin-bottom: 16px;
+}
+
+.button-login .login {
+    font-family: "Roboto-Black", Helvetica;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+
+.button-register {
+    margin-left: 20%;
+    all: unset;
+    background-color: #000000;
+    border-radius: 6px;
+    box-sizing: border-box;
+    height: 52px;
+    position: relative;
+    width: 167px;
+}
+
+.button-register .register {
+    color: #ffffff;
+    font-family: "Roboto-Black", Helvetica;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    top: 18px;
+}

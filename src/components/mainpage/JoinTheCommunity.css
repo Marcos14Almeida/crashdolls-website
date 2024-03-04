@@ -1,0 +1,107 @@
+.join-the-community {
+    border: 2px solid;
+    border-color: #f900ff;
+    border-radius: 16px;
+    height: 443px;
+    position: relative;
+    width: 1186px;
+    margin-left: 10%;
+    margin-bottom: 64px;
+}
+
+.join-the-community .group {
+    height: 72px;
+    left: 24px;
+    position: absolute;
+    top: 343px;
+    width: 455px;
+}
+
+.join-the-community .title {
+    color: #f900ff;
+    font-family: 'Jeju Hallasan', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    left: 130px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 45px;
+    white-space: nowrap;
+    width: 921px;
+}
+
+.join-the-community .button-design {
+    height: 72px;
+    position: relative;
+    width: 453px;
+}
+
+.black-background {
+    background-color: #000000;
+}
+
+.join-the-community .rectangle {
+    background: linear-gradient(
+        180deg,
+        rgba(249.9, 0, 255, 0.56) 0%,
+        rgba(249.9, 0, 255, 0.6) 0%,
+        rgba(249.9, 0, 255, 0.18) 100%
+    );
+    border: 1px solid;
+    border-color: var(--rosa-banda);
+    border-radius: 8px;
+    height: 64px;
+    left: 43px;
+    position: absolute;
+    top: 0;
+    width: 368px;
+}
+
+.join-the-community .button-text {
+    color: #ffffff;
+    font-family: 'Jeju Hallasan', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    width: 453px;
+}
+
+.join-the-community .overlap-wrapper {
+    height: 72px;
+    left: 55%;
+    position: absolute;
+    top: 343px;
+    width: 455px;
+}
+
+
+.join-the-community .meet-other-fans-meet {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    left: 12%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 107px;
+}
+
+.join-the-community .new-music-alert {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 400;
+    left: 65%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 120px;
+}
+
+

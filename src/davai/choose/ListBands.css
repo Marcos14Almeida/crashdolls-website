@@ -1,0 +1,48 @@
+/* ------------------------------------------------------- 
+                        Top Bar                         
+ ------------------------------------------------------- */
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------------------------------------------------- 
+                        Bands List                         
+ ------------------------------------------------------- */
+
+.bands-list {
+    margin-top: 8px;
+    margin-left: 64px;
+    margin-right: 64px;
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    padding: 0px 16px 0px 0px;
+    position: relative;
+    width: auto;
+}
+
+.bands-list .image {
+    height: 80px;
+    object-fit: cover;
+    position: relative;
+    width: 80px;
+}
+
+.bands-list .band-name {
+    color: #000000;
+    flex: 1;
+    font-family: var(--regular-text-font-family);
+    font-size: var(--regular-text-font-size);
+    font-style: var(--regular-text-font-style);
+    position: relative;
+}
+
+.bands-list .checkbox-instance {
+    position: relative !important;
+}

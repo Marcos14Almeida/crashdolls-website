@@ -1,0 +1,45 @@
+.profile-container {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 10px;
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.band-list {
+  margin-top: 10px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.band-list li {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.user-info {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.description {
+  font-size: 14px;
+  margin-top: 20px;
+}

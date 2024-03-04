@@ -1,0 +1,64 @@
+@import '../../styles/fonts.css';
+
+.page-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.background-image {
+  background-image: url('../../assets/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1.0;
+}
+
+.text-container {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.svg-icon {
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  width: 100%; 
+  height: 100%;
+  z-index: -1; /* Place the SVG image behind the text */
+  opacity: 0.8; 
+  animation: rotateAnimation 10s linear infinite;
+}
+
+@keyframes rotateAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.text {
+  font-size: 128px;
+  color: var(--default-color);
+  font-family: 'Jeju Hallasan', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: -60px;
+}
+
+.slogan {
+  font-size: 40px;
+  color: var(--default-color);
+  font-family: 'Jeju Hallasan', sans-serif;
+  margin-top: 100px;
+}

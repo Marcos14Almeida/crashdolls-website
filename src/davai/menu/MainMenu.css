@@ -1,0 +1,118 @@
+
+/* ------------------------------------------------------- 
+                        List People                            
+ ------------------------------------------------------- */
+
+.frame {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 633px;
+    overflow: hidden;
+    position: relative;
+}
+
+.frame .main-profile {
+    height: 75px;
+    position: relative;
+    width: 343px;
+}
+
+.frame .overlap-group {
+    height: 57px;
+    left: 11px;
+    position: absolute;
+    top: 8px;
+    width: 60px;
+}
+
+.frame .user-profile {
+    height: 56px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 60px;
+    border-radius: 50%;
+    border: 4px solid #00D1FF; /* Set a transparent border initially */
+}
+
+.frame .ellipse {
+    background-color: #00ab11;
+    border: 2px solid;
+    border-color: #ffffff;
+    border-radius: 16px;
+    height: 14px;
+    left: 44px;
+    position: absolute;
+    top: 43px;
+    width: 14px;
+}
+
+.frame .div {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    left: 86px;
+    padding: 4px 0px;
+    position: absolute;
+    top: 3px;
+    width: 254px;
+}
+
+.frame .name-wrapper {
+    align-items: flex-end;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    margin-right: -6px;
+    position: relative;
+    width: 260px;
+}
+
+.frame .name {
+    align-self: stretch;
+    color: #000000;
+    font-family: var(--bold-title-16-font-family);
+    font-size: var(--bold-title-16-font-size);
+    font-style: var(--bold-font-style);
+    font-weight: var(--bold-font-weight);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+}
+
+.frame .div-2 {
+    align-items: flex-start;
+    display: flex;
+    flex: 0 0 auto;
+    flex-wrap: wrap;
+    gap: 4px 4px;
+    margin-right: -6px;
+    position: relative;
+    width: 260px;
+}
+
+.frame .genre-wrapper {
+    align-items: center;
+    border: 1px solid;
+    border-color: #0084e499;
+    border-radius: 20px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 8px;
+    padding: 4px 8px;
+    position: relative;
+}
+
+.frame .genre-text {
+    font-size: var(--small-text-12-font-size);
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
